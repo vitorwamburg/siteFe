@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sobre Mim — Chef Fernanda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER (idêntico ao da home)
+============================================================ -->
+<header id="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="name">Chef Fernanda</span>
+      <span class="tag">micro.</span>
+    </a>
+
+    <nav class="primary" id="primary-nav">
+       <a href="sobre.html">Sobre</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="contato.html">Contato</a>
+      <div class="socials">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.89 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.42.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.42.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.3 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-8.4a1.17 1.17 0 1 1 0-2.34 1.17 1.17 0 0 1 0 2.34z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.2v14.2c0 1.5-1.2 2.7-2.7 2.7a2.7 2.7 0 0 1-2.7-2.7 2.7 2.7 0 0 1 2.7-2.7c.28 0 .55.04.8.12V10.4a6 6 0 0 0-.8-.06 6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6V8.6a8 8 0 0 0 4.5 1.4V6.8a4.8 4.8 0 0 1-4.6-4.8z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9z"/></svg></a>
+        <a href="https://www.youtube.com/watch?v=CBSsL4u_nng" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.42a2.78 2.78 0 0 0-1.95 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.95 1.96C5.12 19.5 12 19.5 12 19.5s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33zM9.75 15.02V8.48l5.75 3.27z"/></svg></a>
+      </div>
+    </nav>
+
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================
+     HERO — com imagem de fundo + overlay
+============================================================ -->
+<section class="about-hero">
+  <div class="hero-bg"></div>
+  <img class="about-hero-img" src="/imagens/restaurante.jpg" alt="" onerror="this.remove()">
+  <div class="hero-vignette"></div>
+  <div class="wrap">
+    <p class="eyebrow hero-eyebrow">Sobre mim</p>
+    <h1 style="margin-top:1.2rem;"><span class="line"><span>Ei, eu sou a <em>Chef Fernanda.</em></span></span></h1>
+    <p class="sub">Ou só Micro, pra quem já sentou à mesa comigo. Essa página é o texto mais longo que eu já escrevi sobre mim mesma — então pega um café e vem comigo.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     NARRATIVA EDITORIAL (texto + imagens de tamanhos variados)
+============================================================ -->
+<section class="narrative section-pad">
+  <div class="wrap">
+    <div class="editorial">
+
+      <p>Eu não nasci numa família de chefs. Cresci numa cozinha pequena e barulhenta, onde tempero era um outro jeito de dizer "eu gosto de você". Foi ali, na ponta dos pés olhando panela mais alta que eu, que aprendi a receita que ninguém escreve: cozinhar bem começa em prestar atenção.</p>
+
+      <p>Depois vieram a faculdade de Gastronomia, os estágios que começavam de madrugada e terminavam exausta, as cozinhas quentes demais e os primeiros pratos que eu tinha vergonha de mostrar. Cheguei a competir em mostras de cozinha regional — foi lá, aliás, que ganhei o apelido <strong>Micro</strong>: um chef mais velho riu e disse que eu temperava "no olho, só que com precisão de laboratório". O nome colou, e resolvi assinar com ele.</p>
+
+      <figure class="edit-figure edit-figure--inset reveal">
+        <img src="/imagens/jacquin.jpg" alt="" onerror="this.closest('figure').remove()">
+      </figure>
+
+      <p>Hoje faço diferente do que imaginei lá atrás. Em vez de um salão cheio de mesas anônimas, escolhi levar minha cozinha pra dentro da casa das pessoas — jantares privados, eventos pequenos, experiências pensadas do início ao fim. Prefiro saber o nome de cada convidado a servir uma sala inteira sem trocar uma palavra com ninguém.</p>
+
+      <p>Minha cozinha é afetiva, mas nada bagunçada — tem técnica por trás de cada coisa que parece simples. Gosto de misturar ingrediente brasileiro com truque que aprendi vendo cozinha de fora: um risoto que lembra festa junina do lado de um molho bem clássico, uma fruta que só existe no Cerrado se metendo onde ninguém espera.</p>
+
+      <p>Se você perguntar o que eu mais gosto de cozinhar, a resposta muda toda semana. Mas o motivo nunca muda: eu quero criar o prato que vai ficar na cabeça de alguém bem depois da última garfada. É por isso que eu entro na cozinha todo dia.</p>
+
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     BLOCOS ALTERNADOS — IMAGEM + TEXTO
+============================================================ -->
+<section class="split-block">
+  <div class="wrap">
+
+    <!-- BLOCO 1: IMAGEM NORMAL -->
+    <div class="split-row reveal">
+      <div class="split-media">
+        <div class="ph" data-label="Bastidores">
+          <img src="/imagens/detalhes.avif" alt="Bastidores da cozinha" onerror="this.remove()">
+        </div>
+      </div>
+      <div class="split-text">
+        <p class="eyebrow">Bastidores</p>
+        <h3>O que ninguém vê é o que mais importa.</h3>
+        <p>Antes de qualquer prato chegar à mesa, existem horas de organização silenciosa: cortes planejados, tempos calculados, testes que ninguém prova além de mim. É nesse tempo invisível que a experiência inteira é construída.</p>
+      </div>
+    </div>
+
+    <!-- BLOCO 2: VÍDEO -->
+    <div class="split-row reverse reveal">
+      <div class="split-media">
+        <div class="bts-video">
+          <iframe
+            src="https://www.youtube.com/embed/CBSsL4u_nng?rel=0&modestbranding=1"
+            title="Processo Criativo"
+            frameborder="0"
+            allow="autoplay; encrypted-media"
+            allowfullscreen>
+          </iframe>
+        </div>
+      </div>
+      <div class="split-text">
+        <p class="eyebrow">Processo criativo</p>
+        <h3>Cada menu começa com uma pergunta.</h3>
+        <p>Não crio cardápios genéricos. Antes de qualquer receita, pergunto: quem vai estar à mesa, o que essa ocasião significa, o que eu quero que essas pessoas sintam. O prato é sempre a resposta, nunca o ponto de partida.</p>
+      </div>
+    </div>
+
+    <!-- BLOCO 3: 3 IMAGENS JUNTAS (Layout about-images + dynamic-layout) -->
+    <div class="split-row reveal">
+      <div class="split-media about-images dynamic-layout">
+        <div class="ph" data-label="No preparo">
+          <img src="/imagens/pareceGostoso.jpg" alt="preparando" onerror="this.remove()">
+        </div>
+        <div class="ph" data-label="Empratamento">
+          <img src="/imagens/michelinDubai.webp" alt="Empratamento" onerror="this.remove()">
+        </div>
+        <div class="ph" data-label="Em evento">
+          <img src="/imagens/evento.webp" alt="chef fe no evento" onerror="this.remove()">
+        </div>
+      </div>
+      <div class="split-text">
+        <p class="eyebrow">Atendimento</p>
+        <h3>Cozinho para pessoas, não para pratos.</h3>
+        <p>Cada conversa antes de um evento é parte da receita. Restrições, memórias afetivas, aquele prato que lembra alguém especial — tudo isso entra no menu. Quando um convidado sente que o jantar foi feito só para ele, eu sei que fiz meu trabalho direito.</p>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     FRASE MOTIVACIONAL (mantida)
+============================================================ -->
+<section class="philosophy">
+  <div class="wrap">
+    <div class="mark reveal">“</div>
+    <blockquote class="reveal">
+      Cozinhar é a forma mais honesta<br>
+      que eu conheço de dizer <em>eu me importo.</em>
+    </blockquote>
+    <cite>Chef Fernanda</cite>
+  </div>
+</section>
+
+<!-- ============================================================
+     CONTATO — versão refinada e convidativa
+============================================================ -->
+<section class="contact-cta section-pad">
+  <div class="wrap contact-layout">
+    <div class="contact-text reveal">
+      <h2 class="contact-title">Contato</h2>
+      <p class="contact-sub">Se você chegou até aqui, talvez já tenha sentido um pouco do que eu coloco em cada prato. Agora me conta: o que a gente pode criar juntos?</p>
+      <a href="contato.html" class="btn-pill">Solicitar experiência</a>
+    </div>
+    <div class="contact-photo reveal"><img src="/imagens/chocolate.avif" alt="" onerror="this.remove()"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER (idêntico ao da home)
+============================================================ -->
+<footer id="contato">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="name">Chef Fernanda</div>
+        <div class="tag">micro.</div>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <a href="sobre.html">Sobre</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="servicos.html">Serviços</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <a href="mailto:contato@chefernanda.com">contato@chefernanda.com</a>
+          <a href="tel:+5561999999999">+55 61 99999-9999</a>
+        </div>
+        <div class="footer-col">
+          <h4>Redes</h4>
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">LinkedIn</a>
+          <a href="https://www.youtube.com/watch?v=CBSsL4u_nng">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Chef Fernanda — Micro. Todos os direitos reservados.</span>
+      <span>Brasília, DF</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
