@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contato — Chef Fernanda</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,400;0,9..144,600;1,9..144,400;1,9..144,500&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<!-- ============================================================
+     HEADER (idêntico ao restante do site)
+============================================================ -->
+<header id="site-header">
+  <div class="wrap">
+    <a href="index.html" class="brand">
+      <span class="name">Chef Fernanda</span>
+      <span class="tag">micro.</span>
+    </a>
+
+    <nav class="primary" id="primary-nav">
+      <a href="sobre.html">Sobre</a>
+      <a href="galeria.html">Galeria</a>
+      <a href="servicos.html">Serviços</a>
+      <a href="contato.html">Contato</a>
+      <div class="socials">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.89 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.42.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.42.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.3 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-8.4a1.17 1.17 0 1 1 0-2.34 1.17 1.17 0 0 1 0 2.34z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.2v14.2c0 1.5-1.2 2.7-2.7 2.7a2.7 2.7 0 0 1-2.7-2.7 2.7 2.7 0 0 1 2.7-2.7c.28 0 .55.04.8.12V10.4a6 6 0 0 0-.8-.06 6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6V8.6a8 8 0 0 0 4.5 1.4V6.8a4.8 4.8 0 0 1-4.6-4.8z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9z"/></svg></a>
+        <a href="https://www.youtube.com/watch?v=CBSsL4u_nng" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.42a2.78 2.78 0 0 0-1.95 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.95 1.96C5.12 19.5 12 19.5 12 19.5s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33zM9.75 15.02V8.48l5.75 3.27z"/></svg></a>
+      </div>
+    </nav>
+
+    <button class="menu-btn" id="menu-btn" aria-label="Abrir menu">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<!-- ============================================================
+     HERO — imagem estática + overlay, texto curto
+============================================================ -->
+<section class="about-hero about-hero--short">
+  <div class="hero-bg"></div>
+  <img class="about-hero-img" src="imagens/aulassupercheffe.jpg" alt="" onerror="this.remove()">
+  <div class="hero-vignette"></div>
+  <div class="wrap">
+    <p class="eyebrow hero-eyebrow">Contato</p>
+    <h1 style="margin-top:1.2rem;"><span class="line"><span>Vamos criar algo <em>juntos?</em></span></span></h1>
+    <p class="sub">Conte a ocasião, o número de convidados e o clima que você imagina — o resto é comigo.</p>
+  </div>
+</section>
+
+<!-- ============================================================
+     FORMULÁRIO + INFORMAÇÕES
+============================================================ -->
+<section class="contact-main section-pad">
+  <div class="wrap contact-grid">
+
+    <div class="contact-form-card reveal">
+      <p class="eyebrow">Fale comigo</p>
+      <h2>Me conte sobre <em>sua ideia.</em></h2>
+      <p>Preencha os detalhes abaixo e eu retorno pessoalmente para conversarmos sobre o menu, a data e tudo o que a ocasião precisa.</p>
+
+      <form id="contact-form" novalidate>
+        <div class="field-row">
+          <div class="field">
+            <label for="nome">Nome</label>
+            <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" placeholder="voce@email.com" required>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="telefone">Telefone</label>
+            <input type="tel" id="telefone" name="telefone" placeholder="(61) 99999-9999">
+          </div>
+          <div class="field">
+            <label for="tipo">Tipo de experiência</label>
+            <select id="tipo" name="tipo">
+              <option value="">Selecione uma opção</option>
+              <option>Jantar Privado</option>
+              <option>Evento &amp; Celebração</option>
+              <option>Experiência Gastronômica</option>
+              <option>Aula de Culinária</option>
+              <option>Ainda não sei</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="field-row">
+          <div class="field">
+            <label for="data">Data prevista</label>
+            <input type="date" id="data" name="data">
+          </div>
+          <div class="field">
+            <label for="convidados">Número de convidados</label>
+            <input type="number" id="convidados" name="convidados" min="1" placeholder="Ex.: 8">
+          </div>
+        </div>
+
+        <div class="field">
+          <label for="mensagem">Mensagem</label>
+          <textarea id="mensagem" name="mensagem" placeholder="Fale um pouco sobre a ocasião, o clima que imagina e qualquer restrição alimentar dos convidados." required></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-solid">Enviar mensagem</button>
+        <p class="form-note" id="form-note"></p>
+      </form>
+    </div>
+
+    <aside class="contact-info-card reveal">
+      <div class="seal"><span class="dot"></span>micro. contato</div>
+
+      <div class="info-list">
+        <div class="info-item">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M6.62 10.79a15.05 15.05 0 0 0 6.59 6.59l2.2-2.2a1 1 0 0 1 1.01-.24c1.12.37 2.33.57 3.58.57a1 1 0 0 1 1 1V20a1 1 0 0 1-1 1C10.61 21 3 13.39 3 4a1 1 0 0 1 1-1h3.5a1 1 0 0 1 1 1c0 1.25.2 2.46.57 3.58a1 1 0 0 1-.25 1.01l-2.2 2.2z"/></svg></span>
+          <div>
+            <div class="label">Telefone</div>
+            <a class="value" href="tel:+5561993834010">+55 61 99383-4010</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M2 4h20v16H2V4zm2 2v.01L12 12l8-5.99V6H4zm16 12V8.24l-7.4 5.55a1 1 0 0 1-1.2 0L4 8.24V18h16z"/></svg></span>
+          <div>
+            <div class="label">Email</div>
+            <a class="value" href="fefemouraperes@gmail.com">fefemouraperes@gmail.com</a>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 2a7 7 0 0 0-7 7c0 5.25 7 13 7 13s7-7.75 7-13a7 7 0 0 0-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/></svg></span>
+          <div>
+            <div class="label">Atendimento</div>
+            <span class="value">Brasília, DF<span>Atendo eventos em toda a região do Distrito Federal e entorno</span></span>
+          </div>
+        </div>
+
+        <div class="info-item">
+          <span class="icon"><svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zm1 10.41V6h-2v7.41l4.29 4.3 1.42-1.42L13 12.41z"/></svg></span>
+          <div>
+            <div class="label">Resposta</div>
+            <span class="value">Em até 24h<span>Segunda a sábado</span></span>
+          </div>
+        </div>
+      </div>
+
+      <div class="divider"></div>
+
+      <p class="eyebrow" style="margin-bottom:1rem;">Redes</p>
+      <div class="invite-socials">
+        <a href="#" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 2c2.7 0 3.06.01 4.12.06 1.06.05 1.79.22 2.43.47.66.26 1.22.6 1.77 1.15.55.55.89 1.11 1.15 1.77.25.64.42 1.37.47 2.43.05 1.06.06 1.42.06 4.12s-.01 3.06-.06 4.12c-.05 1.06-.22 1.79-.47 2.43a4.9 4.9 0 0 1-1.15 1.77 4.9 4.9 0 0 1-1.77 1.15c-.64.25-1.37.42-2.43.47-1.06.05-1.42.06-4.12.06s-3.06-.01-4.12-.06c-1.06-.05-1.79-.22-2.43-.47a4.9 4.9 0 0 1-1.77-1.15 4.9 4.9 0 0 1-1.15-1.77c-.25-.64-.42-1.37-.47-2.43C2.01 15.06 2 14.7 2 12s.01-3.06.06-4.12c.05-1.06.22-1.79.47-2.43.26-.66.6-1.22 1.15-1.77A4.9 4.9 0 0 1 5.45 2.53c.64-.25 1.37-.42 2.43-.47C8.94 2.01 9.3 2 12 2zm0 5a5 5 0 1 0 0 10 5 5 0 0 0 0-10zm0 8.2a3.2 3.2 0 1 1 0-6.4 3.2 3.2 0 0 1 0 6.4zm5.2-8.4a1.17 1.17 0 1 1 0-2.34 1.17 1.17 0 0 1 0 2.34z"/></svg></a>
+        <a href="#" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.6 2h-3.2v14.2c0 1.5-1.2 2.7-2.7 2.7a2.7 2.7 0 0 1-2.7-2.7 2.7 2.7 0 0 1 2.7-2.7c.28 0 .55.04.8.12V10.4a6 6 0 0 0-.8-.06 6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6V8.6a8 8 0 0 0 4.5 1.4V6.8a4.8 4.8 0 0 1-4.6-4.8z"/></svg></a>
+        <a href="#" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3V9zm7 0h3.8v1.7h.05c.53-1 1.83-2.05 3.77-2.05 4.03 0 4.78 2.65 4.78 6.1V21h-4v-5.6c0-1.34-.02-3.06-1.87-3.06-1.87 0-2.16 1.46-2.16 2.96V21h-4V9z"/></svg></a>
+        <a href="https://www.youtube.com/watch?v=CBSsL4u_nng" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22.54 6.42a2.78 2.78 0 0 0-1.95-2C18.88 4 12 4 12 4s-6.88 0-8.59.42a2.78 2.78 0 0 0-1.95 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33 2.78 2.78 0 0 0 1.95 1.96C5.12 19.5 12 19.5 12 19.5s6.88 0 8.59-.46a2.78 2.78 0 0 0 1.95-1.96 29 29 0 0 0 .46-5.33 29 29 0 0 0-.46-5.33zM9.75 15.02V8.48l5.75 3.27z"/></svg></a>
+      </div>
+
+      <a href="https://wa.me/5561993834010" class="btn-pill" target="_blank" rel="noopener">Chamar no WhatsApp</a>
+    </aside>
+
+  </div>
+</section>
+
+<!-- ============================================================
+     COMO FUNCIONA
+============================================================ -->
+<section class="process section-pad">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">Como funciona</p>
+        <h2>Do primeiro contato <em style="font-style:italic;color:var(--gold-soft);">ao último prato.</em></h2>
+      </div>
+      <p>Um caminho simples, pensado para você se preocupar só com uma coisa: aproveitar a experiência.</p>
+    </div>
+
+    <div class="process-grid reveal">
+      <div class="process-step">
+        <div class="num">01</div>
+        <h3>Conversa inicial</h3>
+        <p>Você me conta a ocasião, o número de convidados e o clima que imagina para o momento.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">02</div>
+        <h3>Proposta de menu</h3>
+        <p>Desenho um cardápio autoral e compartilho com você antes de qualquer confirmação.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">03</div>
+        <h3>Preparação</h3>
+        <p>Ajusto ingredientes, testo combinações e organizo cada detalhe da logística do dia.</p>
+      </div>
+      <div class="process-step">
+        <div class="num">04</div>
+        <h3>O grande dia</h3>
+        <p>Chego com a equipe, cozinho no local e cuido de tudo até o último prato lavado.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     MAPA / ÁREA DE ATENDIMENTO
+============================================================ -->
+<section class="map-block section-pad">
+  <div class="wrap">
+    <div class="section-head reveal">
+      <div>
+        <p class="eyebrow">Área de atendimento</p>
+        <h2>Brasília <em style="font-style:italic;color:var(--gold-soft);">e região.</em></h2>
+      </div>
+      <p>Jantares e eventos são realizados no local escolhido por você, dentro do Distrito Federal e entorno.</p>
+    </div>
+    <div class="map-frame reveal">
+      <iframe src="https://www.google.com/maps?q=Bras%C3%ADlia,DF&output=embed" title="Mapa da área de atendimento — Brasília, DF" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     PERGUNTAS FREQUENTES
+============================================================ -->
+<section class="faq section-pad">
+  <div class="wrap">
+    <div class="section-head reveal" style="justify-content:center; text-align:center;">
+      <div>
+        <p class="eyebrow" style="justify-content:center;">Dúvidas comuns</p>
+        <h2>Perguntas <em style="font-style:italic;color:var(--gold-soft);">frequentes.</em></h2>
+      </div>
+    </div>
+
+    <div class="faq-list reveal">
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false">Com quanto tempo de antecedência devo reservar?</button>
+        <div class="faq-answer"><p>O ideal é entrar em contato com pelo menos 2 a 3 semanas de antecedência, principalmente em datas comemorativas. Mas mande sua mensagem mesmo em cima da hora — sempre vale a pena perguntar sobre disponibilidade.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false">Vocês atendem fora de Brasília?</button>
+        <div class="faq-answer"><p>Sim. Atendo eventos em todo o Distrito Federal e cidades do entorno. Para localidades mais distantes, o deslocamento é combinado à parte na proposta.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false">É possível adaptar o menu a restrições alimentares?</button>
+        <div class="faq-answer"><p>Totalmente. Alergias, intolerâncias e preferências alimentares fazem parte da conversa inicial e são incorporadas ao cardápio sem abrir mão da experiência.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false">Qual o número mínimo e máximo de convidados?</button>
+        <div class="faq-answer"><p>Jantares privados costumam funcionar bem a partir de 4 pessoas. Para eventos e celebrações maiores, o formato de serviço é ajustado conforme o número de convidados — me conta o tamanho do seu grupo e montamos juntos a melhor estrutura.</p></div>
+      </div>
+      <div class="faq-item">
+        <button class="faq-q" type="button" aria-expanded="false">Como funciona o pagamento?</button>
+        <div class="faq-answer"><p>Após a aprovação do menu, é solicitado um sinal para confirmar a data, com o restante pago no dia do evento. Os detalhes são combinados diretamente na proposta.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============================================================
+     GALERIA EM CARROSSEL — automática
+============================================================ -->
+<section class="gallery-auto">
+  <div class="gallery-auto-track" id="auto-carousel-track">
+    <div class="ph3"><img src="imagens/cordeiromassa.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/docinho.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/entradinhatop.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/franguinnhoxadres.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/paozinholegal.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/menuespecial.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/camaraotopmasterbest.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/bolinhototoso.jpeg" alt="" onerror="this.remove()"></div>
+    <div class="ph3"><img src="imagens/frangofeitonapanela.jpeg" alt="" onerror="this.remove()"></div>
+  </div>
+</section>
+
+<!-- ============================================================
+     FOOTER (idêntico ao restante do site)
+============================================================ -->
+<footer id="contato">
+  <div class="wrap">
+    <div class="footer-top">
+      <div class="footer-brand">
+        <div class="name">Chef Fernanda</div>
+        <div class="tag">micro.</div>
+      </div>
+      <div class="footer-cols">
+        <div class="footer-col">
+          <h4>Navegação</h4>
+          <a href="sobre.html">Sobre</a>
+          <a href="galeria.html">Galeria</a>
+          <a href="servicos.html">Serviços</a>
+        </div>
+        <div class="footer-col">
+          <h4>Contato</h4>
+          <a href="mailto:contato@chefernanda.com">contato@chefernanda.com</a>
+          <a href="tel:+5561999999999">+55 61 99999-9999</a>
+        </div>
+        <div class="footer-col">
+          <h4>Redes</h4>
+          <a href="#">Instagram</a>
+          <a href="#">TikTok</a>
+          <a href="#">LinkedIn</a>
+          <a href="https://www.youtube.com/watch?v=CBSsL4u_nng">YouTube</a>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Chef Fernanda — Micro. Todos os direitos reservados.</span>
+      <span>Brasília, DF</span>
+    </div>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
